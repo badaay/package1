@@ -1,0 +1,18 @@
+{
+    "name": "baday/package1",
+    "description": "package person",
+    "type": "git",
+    "authors": [
+        {
+            "name": "bagus hidayat",
+            "email": "bagus.hid@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "baday\\package1\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
